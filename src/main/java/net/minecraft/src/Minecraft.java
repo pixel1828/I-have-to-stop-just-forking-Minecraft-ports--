@@ -11,6 +11,7 @@ import org.lwjgl.opengl.GL11;
 import net.PeytonPlayz585.opengl.LWJGLMain;
 
 public class Minecraft implements Runnable {
+	public MobSpawner mobSpawner;
 	public PlayerController playerController = new PlayerControllerSP(this);
 	public int displayWidth;
 	public int displayHeight;
