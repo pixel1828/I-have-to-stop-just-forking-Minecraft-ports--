@@ -40,6 +40,7 @@ public class Minecraft implements Runnable {
 	public static long[] tickTimes = new long[512];
 	public static int numRecordedFrameTimes = 0;
 	private TextureWaterFX textureWaterFX = new TextureWaterFX();
+	public MobSpawner mobSpawner;
 	private TextureLavaFX textureLavaFX = new TextureLavaFX();
 	volatile boolean running = true;
 	public String debug = "";
