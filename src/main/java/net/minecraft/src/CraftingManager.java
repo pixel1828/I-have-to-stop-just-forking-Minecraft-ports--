@@ -20,7 +20,7 @@ public class CraftingManager {
 		(new RecipesFood()).addRecipes(this);
 		(new RecipesCrafting()).addRecipes(this);
 		(new RecipesArmor()).addRecipes(this);
-		this.addRecipe(new ItemStack(Block.gears, 1), new Object[]{"###", "###", "###", Character.valueOf('#'), Block.dirt});
+		this.addRecipe(new ItemStack(Block.gear, 1), new Object[]{"###", "###", "###", Character.valueOf('#'), Block.dirt});
 		this.addRecipe(new ItemStack(Block.cloth, 1), new Object[]{"###", "###", "###", Character.valueOf('#'), Item.silk});
 		this.addRecipe(new ItemStack(Block.tnt, 1), new Object[]{"X#X", "#X#", "X#X", Character.valueOf('X'), Item.gunpowder, Character.valueOf('#'), Block.sand});
 		this.addRecipe(new ItemStack(Block.stairSingle, 3), new Object[]{"###", Character.valueOf('#'), Block.cobblestone});
