@@ -9,7 +9,7 @@ public class BlockLog extends Block {
 	}
 
 	public int quantityDropped(Random var1) {
-		return 1;
+		return 64;
 	}
 
 	public int idDropped(int var1, Random var2) {
